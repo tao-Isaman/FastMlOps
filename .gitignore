@@ -1,0 +1,4 @@
+env
+build
+FastMlOps.egg-info
+__pycache__

@@ -5,7 +5,7 @@ esay to deploy your ml model
 ```python
 from FastMlOps import FastMlOps
 
-app = FastML()
+app = FastMlOps()
 
 config = {
     "method" : "POST" ,
