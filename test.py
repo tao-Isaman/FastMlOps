@@ -1,9 +1,6 @@
-# from fastapi import FastAPI
-from FastML import FastML
+from FastMlOps import FastMlOps
 
-
-
-app = FastML()
+app = FastMlOps()
 
 config = {
     "method" : "POST" ,
@@ -19,5 +16,4 @@ config = {
     "model" : "model1.h5"
 }
 
-# print(dir(app))
 app.createAPI(config)

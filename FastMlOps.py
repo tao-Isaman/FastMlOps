@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 import json
 
-class FastML(FastAPI):
+class FastMlOps(FastAPI):
 
 
     def helloTao(self):
