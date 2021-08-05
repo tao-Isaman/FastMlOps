@@ -5,3 +5,4 @@ COPY . ./FASTMLOPS
 WORKDIR ./FASTMLOPS
 
 RUN pip install -r requirements.txt
+
